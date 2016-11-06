@@ -18,6 +18,7 @@
 * 2 x 3.5 audio jack to the sound system (>= 2m length)
 * Audio amplifier (for the edrum)
 * 2 x headset microphone
+* Timer + screen mirroring our slides
 
 #### Nice to have
 
