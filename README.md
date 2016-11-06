@@ -5,6 +5,7 @@
 * Floor plan of the conf venue & after party
 * Size of the stage for talk & after party
 * Can the lights (that point to the stage) be turned off?
+* Can the lights in the room be controlled via DMX512?
 
 ### Technical 
 
@@ -45,3 +46,13 @@
 * 8 x 1m [Adafruit NeoPixel strips](https://www.adafruit.com/products/1138)
 * 2 x power supply (plug type C)
 * Tripod
+
+
+
+## Ideas
+
+* gameboy + modv
+* edrum + LED
+* play music together
+* audience interaction (voting the show)
+* control the room lights via DMX512
