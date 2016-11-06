@@ -4,7 +4,7 @@
 
 * Floor plan of the conf venue & after party
 * Size of the stage for talk & after party
-* Can the lights that point to the stage be turned of?
+* Can the lights (that point to the stage) be turned off?
 
 ### Technical 
 
@@ -43,3 +43,4 @@
 * [Adafruit FadeCandy](https://www.adafruit.com/product/1689)
 * 8 x 1m [Adafruit NeoPixel strips](https://www.adafruit.com/products/1138)
 * 2 x power supply (plug type C)
+* Tripod
