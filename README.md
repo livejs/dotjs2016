@@ -17,7 +17,7 @@
 * Table (>= 3m wide)
 * 2 x 3.5 audio jack to the sound system (>= 2m length)
 * Audio amplifier (for the edrum)
-* Headset microphone
+* 2 x headset microphone
 
 #### Nice to have
 
