@@ -28,9 +28,13 @@
 
 ## Our setup
 
+### Sam
+
+
+
 ### Tim
 
-* 1 x MacBook Pro (Retina, 13 inch, 2015) with HDMI out
+* 1 x MacBook Pro (Retina, 13 inch, 2015) with HDMI out (plug type C)
 * [xDrum DD-530](https://www.kirstein.de/en/E-Drum-Sets/XDrum-DD-530-Electronic-drumset-with-mesh-heads.html)
 * [Novation Launchpad Mini](https://global.novationmusic.com/launch/launchpad-mini#)
 
@@ -38,3 +42,4 @@
 
 * Adafruit FadeCandy
 * 8 x 1m [Adafruit NeoPixel strips](https://www.adafruit.com/products/1138)
+* 2 x power supply (plug type C)
