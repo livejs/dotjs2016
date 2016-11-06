@@ -24,3 +24,17 @@
 
 * Two HDMI cables (>= 3m)
 * HD video switcher (for example [Roland V-1HD](http://proav.roland.com/promos/v-1hd))
+
+
+## Our setup
+
+### Tim
+
+* 1 x MacBook Pro (Retina, 13 inch, 2015) with HDMI out
+* [xDrum DD-530](https://www.kirstein.de/en/E-Drum-Sets/XDrum-DD-530-Electronic-drumset-with-mesh-heads.html)
+* [Novation Launchpad Mini](https://global.novationmusic.com/launch/launchpad-mini#)
+
+#### LED curtain
+
+* Adafruit FadeCandy
+* 8 x 1m [Adafruit NeoPixel strips](https://www.adafruit.com/products/1138)
