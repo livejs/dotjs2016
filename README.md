@@ -40,6 +40,6 @@
 
 #### LED curtain
 
-* Adafruit FadeCandy
+* [Adafruit FadeCandy](https://www.adafruit.com/product/1689)
 * 8 x 1m [Adafruit NeoPixel strips](https://www.adafruit.com/products/1138)
 * 2 x power supply (plug type C)
