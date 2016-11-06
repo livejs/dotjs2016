@@ -37,6 +37,7 @@
 * 1 x MacBook Pro (Retina, 13 inch, 2015) with HDMI out (plug type C)
 * [xDrum DD-530](https://www.kirstein.de/en/E-Drum-Sets/XDrum-DD-530-Electronic-drumset-with-mesh-heads.html)
 * [Novation Launchpad Mini](https://global.novationmusic.com/launch/launchpad-mini#)
+* [KORG nanoPAD2](http://www.korg.com/us/products/computergear/nanopad2/)
 
 #### LED curtain
 
