@@ -31,7 +31,10 @@
 
 ### Sam
 
-
+* 1 x MacBook Pro (Retina, 15 inch, mid-2014) with HDMI out (plug type A)
+* 1 x [Gemini MM1 DJ mixer](http://geminisound.com/product/mm1) with RCA line-out
+* 2 x Game Boy Advance
+* 2 x [KORG Kaoss Pad Mini (v1)](http://www.gear4music.com/Keyboards-and-Pianos/Korg-Kaoss-Pad-Mini-KP-Effects-Control/21G)
 
 ### Tim
 
@@ -51,7 +54,7 @@
 
 ## Ideas
 
-* gameboy + modv
+* Game Boy + modv
 * edrum + LED
 * play music together
 * audience interaction (voting the show)
