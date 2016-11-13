@@ -45,6 +45,7 @@
 * 1 x MacBook Pro (Retina, 13 inch, 2015) with HDMI out (plug type C)
 * [Akai MIDImix](http://www.akaipro.com/product/midimix)
 * [KORG nanoPAD2](http://www.korg.com/us/products/computergear/nanopad2/)
+* [Novation Launchpad Mini](https://us.novationmusic.com/launch/launchpad-mini)
 
 #### LED curtain
 
@@ -57,4 +58,5 @@
 #### DMX
 
 * 1 x [Enttec DMX USB PRO Mk2](https://www.enttec.com/?main_menu=Products&pn=70314)
-* 1 x [Cameo FLAT PAR 1 RGBW](http://www.cameolight.com/en/products/led-flat-par-cans/flat-pro-1-rgbw-ir-7-x-4-w-high-power-flat-rgbw-led-par-light-in-black-housing-with-ir-remote-control-option/)
+* 2 x [Cameo FLAT PAR 1 RGBW](http://www.cameolight.com/en/products/led-flat-par-cans/flat-pro-1-rgbw-ir-7-x-4-w-high-power-flat-rgbw-led-par-light-in-black-housing-with-ir-remote-control-option/)
+* 1 x [Stairville AF-150 Fog Machine](https://www.thomann.de/gb/stairville_af_150_dmx_fog_machine.htm)
