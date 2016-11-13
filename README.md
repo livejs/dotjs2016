@@ -1,12 +1,15 @@
 # dotjs2016
 
+## Questions
+
+1. Can the lights (that point to the stage) be turned off?
+2. Can the lights in the room be controlled via DMX512?
+3. Can we practise the talk in the venue? If yes, when can that happen? 
+
 ## Requirements
 
 * Floor plan of the conf venue & after party
 * Size of the stage for talk & after party
-* Can the lights (that point to the stage) be turned off?
-* Can the lights in the room be controlled via DMX512?
-* Can we practise the talk in the venue? If yes, when can that happen? 
 
 ### Technical 
 
@@ -40,23 +43,18 @@
 ### Tim
 
 * 1 x MacBook Pro (Retina, 13 inch, 2015) with HDMI out (plug type C)
-* [xDrum DD-530](https://www.kirstein.de/en/E-Drum-Sets/XDrum-DD-530-Electronic-drumset-with-mesh-heads.html)
-* [Novation Launchpad Mini](https://global.novationmusic.com/launch/launchpad-mini#)
+* [Akai MIDImix](http://www.akaipro.com/product/midimix)
 * [KORG nanoPAD2](http://www.korg.com/us/products/computergear/nanopad2/)
 
 #### LED curtain
 
 * [Adafruit FadeCandy](https://www.adafruit.com/product/1689)
 * 8 x 1m [Adafruit NeoPixel strips](https://www.adafruit.com/products/1138)
-* 2 x power supply (plug type C)
+* 2 x power supply for the LEDs (plug type C)
+* 1 x Raspberry PI 3 with 1 power plug (plug type C)
 * Tripod
 
+#### DMX
 
-
-## Ideas
-
-* Game Boy + modv
-* edrum + LED
-* play music together
-* audience interaction (voting the show)
-* control the room lights via DMX512
+* 1 x [Enttec DMX USB PRO Mk2](https://www.enttec.com/?main_menu=Products&pn=70314)
+* 1 x [Cameo FLAT PAR 1 RGBW](http://www.cameolight.com/en/products/led-flat-par-cans/flat-pro-1-rgbw-ir-7-x-4-w-high-power-flat-rgbw-led-par-light-in-black-housing-with-ir-remote-control-option/)
