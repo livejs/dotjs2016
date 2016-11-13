@@ -6,6 +6,7 @@
 * Size of the stage for talk & after party
 * Can the lights (that point to the stage) be turned off?
 * Can the lights in the room be controlled via DMX512?
+* Can we practise the talk in the venue? If yes, when can that happen? 
 
 ### Technical 
 
