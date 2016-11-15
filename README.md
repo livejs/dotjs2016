@@ -20,8 +20,7 @@
 * >= 6 power plugs (2 x 3 power plugs)
 * 2 x >= 4m power cords
 * Table (>= 3m wide)
-* 2 x 3.5 audio jack to the sound system (>= 2m length)
-* Audio amplifier (for the edrum)
+* 1 x 3.5 audio jack to the sound system (>= 2m length)
 * 2 x headset microphone
 * Timer + screen mirroring our slides
 
@@ -53,6 +52,7 @@
 * 8 x 1m [Adafruit NeoPixel strips](https://www.adafruit.com/products/1138)
 * 2 x power supply for the LEDs (plug type C)
 * 1 x Raspberry PI 3 with 1 power plug (plug type C)
+* 1 x [TP-Link 300Mbps Wireless N Router](http://www.tp-link.com/en/products/details/cat-9_TL-WR841ND.html)
 * Tripod
 
 #### DMX
