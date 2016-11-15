@@ -4,7 +4,9 @@
 
 1. Can the lights (that point to the stage) be turned off?
 2. Can the lights in the room be controlled via DMX512?
-3. Can we practise the talk in the venue? If yes, when can that happen? 
+  * If yes, can we get a connection to some of the stage lights? 
+3. Can we practise the talk in the venue? 
+  * If yes, when can that happen? 
 
 ## Requirements
 
