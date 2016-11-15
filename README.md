@@ -28,6 +28,7 @@
 
 #### Nice to have
 
+* Adjustable table height
 * Two HDMI cables (>= 3m)
 * HD video switcher (for example [Roland V-1HD](http://proav.roland.com/promos/v-1hd))
 
