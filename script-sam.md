@@ -59,6 +59,8 @@ Again, standing on the shoulders of giants, I've used THREE.js as modV's 3D engi
 
 Any 3D models seen within modV will use THREE.js.
 
+*Added from the slide*: modV uses THREE.js for 3D models and complex 3D scenes.
+
 ## modV: GLSL
 
 *Added from the slide*: OpenGL Shader Language, GLSL for short, can process pixel data on the GPU extremely fast.
