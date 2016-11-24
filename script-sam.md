@@ -59,6 +59,10 @@ Again, standing on the shoulders of giants, I've used THREE.js as modV's 3D engi
 
 Any 3D models seen within modV will use THREE.js.
 
+## modV: GLSL
+
+*Added from the slide*: OpenGL Shader Language, GLSL for short, can process pixel data on the GPU extremely fast.
+
 However, modV can also process anything drawn onto the screen as a WebGL texture and modify that using GLSL (OpenGL Shader Language) using the client's graphics processor.  
 This allows for incredible effects that would otherwise not be possible using Canvas2D.
 
@@ -69,7 +73,7 @@ This allows for incredible effects that would otherwise not be possible using Ca
 A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzalez Vivo and Jen Lowe.  
 Check it out at: http://thebookofshaders.com/
 
-**END MOVE TO LIVEJS DOTJS GITHUB** 
+**END MOVE TO LIVEJS DOTJS GITHUB**
 
 ## modV: Modules
 
