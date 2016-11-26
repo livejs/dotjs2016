@@ -1,4 +1,4 @@
-# ToDo: Website
+# ToDo: Website (low)
 
 * Push new version
 * Use new logo 
@@ -7,11 +7,15 @@
 * Add a section of all shows / talks
 
 
+
+
+
 ---
 
-# ToDo: Twitter
+# ToDo: Twitter (low)
 
 * Add a tweet for dotJS
+* Change the logo
 
 
 
@@ -19,7 +23,7 @@
 
 ---
 
-# ToDo: dotjs2016 Repository
+# ToDo: dotjs2016 Repository (low)
 
 * Add resources
 
@@ -31,7 +35,7 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 
 ---
 
-# ToDo: Talk
+# ToDo: Talk (high)
 
 ## Part 1: Sam
 
@@ -54,6 +58,12 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 ### MIDI 
 
 Rewrite MIDI part
+
+
+### LED
+
+* Take another pic of the curtain -> revert strips + white background
+
 
 ### DMX
 
