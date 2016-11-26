@@ -4,6 +4,14 @@
 * Use new logo 
 * Change header background image
 * Add the dotjs2016 repo as a resource to the page
+* Add a section of all shows / talks
+
+
+---
+
+# ToDo: Twitter
+
+* Add a tweet for dotJS
 
 
 
