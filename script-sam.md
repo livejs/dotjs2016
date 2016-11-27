@@ -39,9 +39,9 @@ ZCR is great for detecting high frequency percussive elements such as high hats 
 
 ## modV
 
-...modV!
-
 modV stands for Modular Visualisation. It is an Open Source audio visualisation environment written in JavaScript and runs in Google Chrome.
+
+The program is the result of my adventure into audio visualisation using JavaScript.
 
 ## modV: Canvas
 
@@ -59,13 +59,7 @@ Again, standing on the shoulders of giants, I've used THREE.js as modV's 3D engi
 
 Any 3D models seen within modV will use THREE.js.
 
-*Added from the slide*: modV uses THREE.js for 3D models and complex 3D scenes.
-
-## modV: GLSL
-
-*Added from the slide*: OpenGL Shader Language, GLSL for short, can process pixel data on the GPU extremely fast.
-
-However, modV can also process anything drawn onto the screen as a WebGL texture and modify that using GLSL (OpenGL Shader Language) using the client's graphics processor.  
+However, modV can also process anything drawn onto the screen as a WebGL texture and modify that using OpenGL Shader Language, GLSL for short. GLSL code runs on client's graphics processor.  
 This allows for incredible effects that would otherwise not be possible using Canvas2D.
 
 (*EXAMPLES OF SHADERS*)
@@ -75,9 +69,8 @@ This allows for incredible effects that would otherwise not be possible using Ca
 A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzalez Vivo and Jen Lowe.  
 Check it out at: http://thebookofshaders.com/
 
-**END MOVE TO LIVEJS DOTJS GITHUB**
-
-## modV: Modules
+**END MOVE TO LIVEJS DOTJS GITHUB** 
+## modV: Modules Putting all of this together
 
 So, we've covered the visualisation technologies - but how can we put all of this together in an ***EASY TO USE*** API?
 
@@ -88,8 +81,6 @@ modV has a collection of four different types of Modules at the moment:
 * Module3D - THREE.js (WebGL)
 * ModuleShader - GLSL (WebGL)
 * ModuleScript - Canvas2D + GLSL (WebGL)
-
-## modV: Putting all of this together
 
 When combined, these Modules can create some stunning visuals.
 
