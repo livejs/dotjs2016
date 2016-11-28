@@ -54,6 +54,10 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 
 ## Part 2: Tim
 
+### Intro
+
+* How super pro and awesome NERD DISCO is and NOT your stupid child story
+* Shows / pics from JSConf Budapest / ViewSource / EmpireJS / ScotlandJS
 
 ### MIDI 
 
@@ -82,6 +86,7 @@ Rewrite MIDI part
 
 ## Part 3: 🤓 + 🤓
 
+* Add the URL to livejs.network
 * Explain what each of us is doing
 * -> Sam is playing music using his game boys
 * -> Tim will control modV using MIDI devices 

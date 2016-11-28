@@ -114,6 +114,12 @@ When combined, these Modules can create some stunning visuals.
 
 ## NERDDISCO
 
+
+* Experiment with ND and collaborate with other people
+* 
+
+* My passion is music too. But instead of using Game Boys, I use the browser. 
+
 * When I was 10 my parents gave me a drum set for my birthday and I loved to play it every day. (pic of me playing drums)
 * 10 years later I had to sell it to finance my information science studies and that made me very sad
 * After leaving the university, I was still sad, so I got a cat and named him Kazzo. He loves to talk with me at night and at some point he told me:
