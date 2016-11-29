@@ -155,6 +155,25 @@ All the lights and lasers are controlled using DMX512
 # Snippets
 
 
+* Since then I'm gave talks about NERD DISCO around the world to inspire everyone to be creative with the web
+* In the last couple of months I started to collaborate with other web artists, like Sam, to get even 
+
+* Since then I talked about NERD DISCO around the world
+* My passion is music too. But instead of using Game Boys, I use the browser. 
+
+* When I was 10 my parents gave me a drum set for my birthday and I loved to play it every day. (pic of me playing drums)
+* 10 years later I had to sell it to finance my information science studies and that made me very sad
+* After leaving the university, I was still sad, so I got a cat and named him Kazzo. He loves to talk with me at night and at some point he told me:
+
+**Kazzo** You love music and you are a dev, why don't you create something based on that?
+**Tim** That is a really good idea.
+
+* That conversation happened more than two years ago and shortly after I started NERD DISCO.
+* It's using **Web Audio** to analyse music and **Canvas** to generate visualisations, but as Sam already talked about that in his software **modV** in depth, I want to focus on the hardware side of NERD DISCO.
+
+
+
+
 * More than two years ago I started NERD DISCO: A project to generate visualize audio by using web technologies.
 * These visualiaztions are generated on canvas  And because Sam already talked about how modV generated visualizations, I will focus on the hardware side of NERD DISCO:
 
