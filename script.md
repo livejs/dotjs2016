@@ -115,7 +115,7 @@ When combined, these Modules can create some stunning visuals.
 * My two biggest passions are music visualizations and experimenting with web technologies
 * To combine both these passions into one project I started NERD DISCO more than two years ago
 * Since then I gave talks around the world to inspire everyone to be creative with the web
-* Recently I also started to collaborate with other web artists to reach new creative horizons. 
+* Recently I started to collaborate with other web artists  
 * One of them is Sam and because he already explained how to create visualisations, I will focus on the hardware side of NERD DISCO. 
 
 
@@ -128,12 +128,12 @@ When combined, these Modules can create some stunning visuals.
 * In the browser we have the **Web MIDI API**, which makes it possible to use any MIDI device over USB, like this **KORG nanoPAD2**
 * We only need to **requestMIDIAccess**
 * And listen to **MIDIMessageEvent**'s
-* Which are fired every time we use a button or an other input on the MIDI device
-* That makes it super easy to control any software 
+* For example if I push a button on the **nanoPAD** Which are fired every time we use a button or an other input on the MIDI device
+* Which means I can use any MIDI device to control software in the browser
 
 
 
-## 2. LED Curtain
+## 2. LED
 
 Another main part of NERD DISCO are LEDs and because I love to create prototypes, I build this LED curtain:
 
@@ -145,8 +145,9 @@ It consists of
 * To manage the LED strips I'm using a microcontroller called FadeCandy and it was only build to control NeoPixels 
 * The FadeCandy is connected over USB to a Raspberry PI and the Raspberry PI is running a Node.js-app, which can send data to the FadeCandy over USB and creates a WebSocket-Server, so I can control the Raspberry PI over WIFI from my computer
 
-* The FadeCandy expects an array of 3-byte triples for each LED 
+* The FadeCandy expects an array of 3-byte triples for each LED, representing an RGB color 
 * For example to light up the first LED with red and the second LED to green, we have to send this array
+* And this goes on and on for every LED
 
 array(
   /* 1 LED */ 255, 0, 0, 
@@ -160,14 +161,16 @@ array(
 * If you don't want to build your own lights, you can use DMX512
 * DMX stands for **Digitial Multiplex** 
 * It's a standard for digital networks and it's commonly used for professional lightning, like you can see in this theatre: all the lights and lasers are controlled using DMX
-* 
-* The 512 stands for 512 channels, so each DMX512 universe  can have 512 seperate channels
-* Every channel has 1 byte
+* The 512 stands for 512 channels (each channel has 1 byte)
+* A network of DMX devices is called a DMX Universe
+* Every universe consists of one sender and multiple devices
+* The devices are connected in series with each other
+* Each device can have multiple channels
+
 * My DMX512 universe consists of a USB DMX Interface, 2 PAR lights and a fog machine
 * I have a Node.js-app running on my computer, which can talk over USB to the DMX interface
 * The DMX interface expects an array of 512 bytes
 * Each DMX device can have multiple channels and a configured address
-* The devices are connected in series
 * The PAR lights have 3 channels each, which means the first one is at address 1, the second one at address 4, the fog machine at 7. 
 * If I want to turn the first PAR light to red, I send the following array
 
@@ -175,7 +178,7 @@ array(/* PAR light A */ 255, 0, 0,
       /* PAR light B */ 0, 0, 0,
       /* fog machine */ 0)
       
-* To change also change the color of the second PAR light to green and turn on the fog machine, I send the following array:
+* To change the color of the second light to green and turn on the fog machine, I send the following array:
 
 array(/* PAR light A */ 255, 0, 0,
       /* PAR light B */ 0, 255, 0,
