@@ -218,3 +218,88 @@ REMOVE
 
 REMOVE
 ---
+
+
+
+
+
+<div class="sl-block" data-block-type="line" data-block-id="422829ee77112cb2190f397d0a06e930" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 0px; top: 0px;">
+    <div class="sl-block-content fragment" data-line-x1="-380" data-line-y1="-250" data-line-x2="580" data-line-y2="450" data-line-color="#cc0000" data-line-start-type="none" data-line-end-type="none" style="z-index: 11;" data-line-width="15px" data-fragment-index="0">
+        <svg
+            xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="960" height="700" viewBox="-380 -250 960 700">
+            <line stroke="#cc0000" stroke-width="15" x1="-379.5" y1="-249.5" x2="580.5" y2="450.5"></line>
+        </svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 0px; top: 0px;" data-block-id="54aa3270791aef86a5d5d9fd007af264">
+    <div class="sl-block-content fragment" data-line-x1="731" data-line-y1="-235" data-line-x2="-229" data-line-y2="465" data-line-color="#cc0000" data-line-start-type="none" data-line-end-type="none" style="z-index: 12;" data-line-width="15px" data-fragment-index="0">
+        <svg
+            xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="960" height="700" viewBox="-229 -235 960 700">
+            <line stroke="#cc0000" stroke-width="15" x1="731.5" y1="-234.5" x2="-228.5" y2="465.5"></line>
+        </svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="6f90adf4763553096d5375b318b237c7" style="min-width: 30px; min-height: 30px; width: 339px; height: 339px; left: 301px; top: 151px;">
+    <div class="sl-block-content fragment fade-up" style="z-index: 13;" data-inline-svg="false" data-fragment-index="0">
+        <img data-natural-width="128" data-natural-height="128" style="" src="https://s3.amazonaws.com/media-p.slid.es/uploads/11681/images/2283381/moneybag.svg"/>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" data-block-id="b645e1d8324dfbfeabd373ca9dba8742" style="height: auto; min-width: 30px; min-height: 30px; width: 792px; left: 168px; top: 129px;">
+    <div class="sl-block-content contrast fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; padding: 17px;" data-fragment-index="0">
+        <h2 style="text-align:right">
+            <span style="font-size:1.4em">&nbsp;Why don't you start a music related project? 🤔 </span>
+        </h2>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 105px; height: auto;" data-block-id="cc35d557e2b90f07daba67242502d040">
+    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+        <h1>Web MIDI</h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="748e2f7999c3e4100eeec041587f741c" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 317px;">
+    <div class="sl-block-content fragment fade-up" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 90%;" data-fragment-index="0">
+        <h2>Musical Instrument Digital Interface</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 309px; left: 180px; top: 105px; height: auto;" data-block-id="04d077808ca0dd29308279f45a1df673">
+    <div class="sl-block-content tag fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 14;" dir="ui" data-fragment-index="0">
+        <h1 style="text-align: left;">Web</h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="shape" data-block-id="1367950ad7fe681ae5b4ad66be633f53" style="min-width: 4px; min-height: 4px; width: 348px; height: 163px; left: 132px; top: 98px;">
+    <div class="sl-block-content fragment" data-shape-type="rect" data-shape-fill-color="rgb(17, 17, 17)" data-shape-stretch="true" style="z-index: 13;" data-fragment-index="0">
+        <svg
+            xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 348 163">
+            <rect width="348" height="163" class="shape-element" fill="rgb(17, 17, 17)"></rect>
+        </svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" data-block-id="34aa2bca751d3004520c881dbe5ff03e" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 505px; top: 244px;">
+    <div class="sl-block-content fragment" data-line-x1="125" data-line-y1="-1" data-line-x2="389" data-line-y2="-1" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 15;" data-line-width="10px" data-fragment-index="0">
+        <svg
+            xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="264" height="1" viewBox="125 -1 264 1">
+            <line stroke="rgba(0,0,0,0)" stroke-width="15" x1="125" y1="-1" x2="389" y2="-1"></line>
+            <line stroke="#ffffff" stroke-width="10" x1="125" y1="-1" x2="389" y2="-1"></line>
+        </svg>
+    </div>
+</div>
+
