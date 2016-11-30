@@ -40,7 +40,6 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 ## Part 1: Sam
 
 * Redo the *Modules* part
-* ZCR / RMS pics instead of diagram
 
 
 
@@ -50,12 +49,11 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 
 ### Intro
 
-* How super pro and awesome NERD DISCO is and NOT your stupid child story
 * Shows / pics from JSConf Budapest / ViewSource / EmpireJS / ScotlandJS
 
 ### MIDI 
 
-Rewrite MIDI part
+* Record a GIF on how to push a button with webcam and how the event is fired? [low]
 
 
 ### LED
