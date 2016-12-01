@@ -58,16 +58,21 @@ Meyda can return far more advanced audio analysis (*LIST OF MEYDA'S FEATURES*) a
 
 ZCR is great for detecting high frequency percussive elements such as high hats and RMS is very good at detecting the kick drum in a song.
 
+## modV origins
+
+Now that I had a WebAudio figured out, I could combine the values from Meyda with drawing shapes using Canvas.  
+(**change**)
+
+I made a modular framework for mixing different visual outputs, called...
 
 ## modV
 
->>ADD IN TEXT HERE ABOUT LEARNING WEBAUDIO AND CANVAS<<
-
 modV stands for Modular Visualisation. It is an Open Source audio visualisation environment written in JavaScript and runs in Google Chrome.
 
-The program is the result of my 2 year adventure into audio visualisation using JavaScript.
+(**change**)  
+The program's development started 2 years ago and it is the result of adventure into audio visualisation using JavaScript.
 
-I'm going to go over the technologies used within modV to create the visualisations.
+Before I show it to you, I'm going to go over the technologies used within modV to create the visualisations.
 
 ### Canvas
 
@@ -88,9 +93,10 @@ Usually in modV, I use Canvas2D to create source blocks of colour and lines that
 
 modV uses WebGL in two different ways.  
 
->> ADD IN THREE.JS INFO <<
-
 I've used THREE.js as modV's 3D engine.  
+
+THREE.js is a very powerful 3D engine using WebGL. It's the most popular library for 3D in the browser for its ease of use and its broad set of features. 
+
 Any 3D models seen within modV will use THREE.js.
 
 
