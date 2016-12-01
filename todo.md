@@ -39,7 +39,8 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 
 ## Part 1: Sam
 
-* Redo the *Modules* part
+* Find gig pics 
+* Rewrite WebAudio slides
 
 
 
