@@ -64,13 +64,9 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 ### DMX
 
 * DMX is like MIDI for stage equip
-* Add more info to DMX
 
 * Create a MIDI device demo
-* Add pics of the devices I'm using
 * calculate the avg value from the LED array
-
-* Maybe use a MIDI device
 
 
 

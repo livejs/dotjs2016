@@ -33,6 +33,7 @@ As there is no direct MIDI output from the software I use on Game Boy, I researc
 ## WebAudio analysing
 
 The WebAudio API is an adaptable system for controlling, analysing and processing audio on the web.  
+
 It is a node-based system (*SHOW DIAGRAM*), allowing the audio to "flow" through different connections. If you've ever used PureData, Max MSP or Blender you should be familiar with this.
 
 We start off with an **audio context**, and add from there.  
@@ -46,7 +47,9 @@ In between the input and output we can add other nodes such as effects (reverb, 
 (*ANALYSER NODE INFORMATION*)
 
 You can do a lot with the Analyser node on its own but there comes a point where I needed a more refined value to work with.  
+
 I use Meyda, the audio processing library by Hugh Rawlinson, Nevo Segal and Jakub Fiala.  
+
 Meyda can return far more advanced audio analysis (*LIST OF MEYDA'S FEATURES*) and the two which are most useful to me are ZCR, the Zero Cross Rate and RMS, Root Mean Squared.
 
 ZCR is great for detecting high frequency percussive elements such as high hats and RMS is very good at detecting the kick drum in a song.
@@ -71,6 +74,7 @@ Usually in modV, I use Canvas2D to create source blocks of colour and lines that
 ### WebGL
 
 modV uses WebGL in two different ways.  
+
 Again, standing on the shoulders of giants, I've used THREE.js as modV's 3D engine.
 
 Any 3D models seen within modV will use THREE.js.
@@ -194,17 +198,17 @@ array(/* PAR light A */ 255, 0, 0,
 
 **SAM:** A couple of months ago, Tim and I met through Live:JS: A collective of audio and visual artists. And then I asked Tim: Oh, wouldn't it be nice to combine our projects? 
 
-**TIM:** YES, that is a good idea. Let's have a Hack Weekend. 
+**TIM:** I said: YES, that is a good idea. Let's have a Hack Weekend. So Sam visited me. 
 
 **SAM:** We added MIDI controller assignments in modV and grabbed the Canvas data to send it over WebSockets to nerdV, controlling the LEDs and DMX! 
-
-**TIM:** But tonight, in this sweet venue, in Paris, we're going to rock this conference. 
 
 
 
 ##  Show
 
+**TIM**: You will see and hear the result of our hack weekend in the following minutes. Sam will play one of his own songs live and I will control modV with my MIDI devices. 
 
+The LEDs and the DMX lights will get the data automatically from modV and the I will manually turn the fog maschine on and off using a MIDI device. 
 
 
 
