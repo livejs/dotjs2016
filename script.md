@@ -37,12 +37,17 @@ As there is no direct MIDI output from the software I use on Game Boy, I researc
 ## WebAudio analysing
 
 The WebAudio API is an adaptable system for controlling, analysing and processing audio on the web.  
-It is a node-based system (*SHOW DIAGRAM*), allowing the audio to "flow" through different connections. If you've ever used visual programming languages such as Blender's node editor, PureData or Max MSP you may be familiar with this.
+
+(**change**)
 
 We start off with an **audio context**, and add from there.  
-For basic usage, a source is needed and a destination.
+(**change**)
 
+For basic usage, a source is needed and a destination.  
 Sources can be either ```<audio>```, an oscillator or a stream.  
+
+(**change**)
+
 The destination is usually your speakers, but can be any audio output your system supports.
 
 In between the input and output we can add other nodes such as effects (reverb, biquad filter, panner, compressor), gain nodes and, what I needed for visualisation, analyser nodes.
@@ -50,7 +55,7 @@ In between the input and output we can add other nodes such as effects (reverb, 
 (*ANALYSER NODE INFORMATION*)
 
 You can do a lot with the Analyser node on its own but there comes a point where I needed a more refined value to work with.  
-I use Meyda, the audio processing library.  
+I use Meyda, an audio processing library.  
 Meyda can return far more advanced audio analysis (*LIST OF MEYDA'S FEATURES*) and the two which are most useful to me are:
 
 * (**change**) ZCR, the Zero Cross Rate 
@@ -70,7 +75,7 @@ I made a modular framework for mixing different visual outputs, called...
 modV stands for Modular Visualisation. It is an Open Source audio visualisation environment written in JavaScript and runs in Google Chrome.
 
 (**change**)  
-The program's development started 2 years ago and it is the result of adventure into audio visualisation using JavaScript.
+The program's development started 2 years ago and it is the result of my adventure into audio visualisation using JavaScript.
 
 Before I show it to you, I'm going to go over the technologies used within modV to create the visualisations.
 
@@ -127,6 +132,10 @@ modV has a collection of four different types of Modules at the moment:
 When combined, these Modules can create some stunning visuals.
 
 (**DEMO TIME**)
+
+Thank you.
+
+Now it's Part 2: TIM!
 
 ---
 
@@ -214,11 +223,11 @@ array(/* PAR light A */ 255, 0, 0,
 
 # Part 3: Sam + Tim
 
-**SAM:** A couple of months ago, Tim and I met through Live:JS: A collective of audio and visual artists. And then I asked Tim: Oh, wouldn't it be nice to combine our projects? 
+**SAM:** A couple of months ago, Tim and I met through Live:JS: A collective of audio and visual artists. I asked Tim: Oh, wouldn't it be nice to combine our projects? 
 
 **TIM:** YES, that is a good idea. Let's have a Hack Weekend. 
 
-**SAM:** We added MIDI controller assignments in modV and grabbed the Canvas data to send it over WebSockets to nerdV, controlling the LEDs and DMX! 
+**SAM:** We added MIDI controller assignments in modV and grabbed the Canvas data to send it over WebSockets to Tim's project nerdV, which controls the NERDDISCO LED Curtain and DMX lighting! 
 
 **TIM:** But tonight, in this sweet venue, in Paris, we're going to rock this conference. 
 
