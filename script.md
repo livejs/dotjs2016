@@ -34,6 +34,7 @@ I've been doing this for about 8 years now, and just a couple of years ago I wan
 As there is no direct MIDI output from the software I use on Game Boy, I researched how to analyse audio using JavaScript in the browser.
 
 
+
 ## WebAudio analysing
 
 The WebAudio API is an adaptable system for controlling, analysing and processing audio on the web.  
@@ -61,7 +62,8 @@ ZCR is great for detecting high frequency percussive elements such as high hats 
 ## modV origins
 
 Now that I had a WebAudio figured out, I could combine the values from Meyda with drawing shapes using Canvas.  
-(**change**)
+
+(*change*)
 
 I made a modular framework for mixing different visual outputs, called...
 
@@ -69,7 +71,8 @@ I made a modular framework for mixing different visual outputs, called...
 
 modV stands for Modular Visualisation. It is an Open Source audio visualisation environment written in JavaScript and runs in Google Chrome.
 
-(**change**)  
+(*change*)
+  
 The program's development started 2 years ago and it is the result of adventure into audio visualisation using JavaScript.
 
 Before I show it to you, I'm going to go over the technologies used within modV to create the visualisations.
@@ -81,13 +84,13 @@ CanvasRenderingContext2D, or Canvas 2D for short, is used for drawing simple sha
 Incredibly, ```<canvas>``` counts as image data too, so we can draw Canvas back onto itself.  
 If we stretch the image as well we can create the the age old effect of infinite video loops: the tunnel effect.
 
-(**change slide**)
+(*change slide*)
 
 Usually in modV, I use Canvas2D to create source blocks of colour and lines that can be manipulated by the other modV Module types.
 
-(**change slide**)
+(*change slide*)
 
-(**change slide**)
+(*change slide*)
 
 ### WebGL
 
@@ -113,7 +116,7 @@ So, we've covered the visualisation technologies - but how can we put all of thi
 
 That's where the modular part of modV comes in.  
 
-(**switch to modV**)
+(*switch to modV*)
 
 modV has a collection of four different types of Modules at the moment:
 
@@ -122,11 +125,15 @@ modV has a collection of four different types of Modules at the moment:
 * ModuleShader - GLSL (WebGL)
 * ModuleScript - Canvas2D + GLSL (WebGL)
 
-(**Show off Module Types in Demo 5 - 10 seconds 🎉**)
+(*Show off Module Types in Demo 5 - 10 seconds 🎉*)
 
 When combined, these Modules can create some stunning visuals.
 
-(**DEMO TIME**)
+(*DEMO TIME*)
+
+
+
+
 
 ---
 
@@ -181,9 +188,11 @@ array(
 ## 3. DMX512
 
 * If you don't want to build your own lights, you can use DMX512
-* DMX stands for **Digitial Multiplex**
 * It's a standard for digital networks and it's commonly used for professional lightning, like you can see in this theatre: all the lights and lasers are controlled using DMX
+
+* DMX stands for **Digitial Multiplex**
 * The 512 stands for 512 channels (each channel has 1 byte)
+
 * A network of DMX devices is called a DMX Universe
 * Every universe consists of one sender and multiple devices
 * The devices are connected in series with each other
@@ -191,9 +200,12 @@ array(
 
 * My DMX512 universe consists of a USB DMX Interface, 2 PAR lights and a fog machine
 * I have a Node.js-app running on my computer, which can talk over USB to the DMX interface
+
 * The DMX interface expects an array of 512 bytes
 * Each DMX device can have multiple channels and a configured address
+
 * The PAR lights have 3 channels each, which means the first one is at address 1, the second one at address 4, the fog machine at 7.
+
 * If I want to turn the first PAR light to red, I send the following array
 
 array(/* PAR light A */ 255, 0, 0,
@@ -206,6 +218,10 @@ array(/* PAR light A */ 255, 0, 0,
       /* PAR light B */ 0, 255, 0,
       /* fog machine */ 255)
 
+* To create this array you have to know the physical order of the devices in the network
+
+**TIM:** And now it's part 3: Sam & Tim
+
 
 
 
@@ -216,17 +232,23 @@ array(/* PAR light A */ 255, 0, 0,
 
 **SAM:** A couple of months ago, Tim and I met through Live:JS: A collective of audio and visual artists. And then I asked Tim: Oh, wouldn't it be nice to combine our projects?
 
-**TIM:** I said: YES, that is a good idea. Let's have a Hack Weekend. So Sam visited me.
+**TIM:** I said: YES, that is a good idea. Let's have a Hack Weekend. So Sam visited me in Frankfurt
 
-**SAM:** We added MIDI controller assignments in modV and grabbed the Canvas data to send it over WebSockets to nerdV, controlling the LEDs and DMX!
+**SAM:** 
+* We added MIDI controller assignments in modV and 
+* grabbed the Canvas data to send it over WebSockets to nerdV
+* controlling the LEDs and DMX!
 
 
 
-##  Show
+## LiveJS
 
 **TIM**: You will see and hear the result of our hack weekend in the following minutes. Sam will play one of his own songs live and I will control modV with my MIDI devices.
 
-The LEDs and the DMX lights will get the data automatically from modV and the I will manually turn the fog maschine on and off using a MIDI device.
+
+(*Load preset with Grab Canvas*)
+(*Sam plays one of his songs*)
+(*Tim VJs*)
 
 
 
@@ -241,7 +263,5 @@ The LEDs and the DMX lights will get the data automatically from modV and the I 
 **TIM:** Thank you very much. This is the End.
 
 **SAM:** GOOOOOOOOOD BYE!
-
-**TIM:** BOOOM HEADSHOT!!!
 
 ✨
