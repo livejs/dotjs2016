@@ -39,9 +39,6 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 
 ## Part 1: Sam
 
-* Find gig pics 
-* Rewrite WebAudio slides
-
 
 
 ---
@@ -52,11 +49,6 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 
 * Shows / pics from JSConf Budapest / ViewSource / EmpireJS / ScotlandJS
 
-### MIDI 
-
-* Record a GIF on how to push a button with webcam and how the event is fired? [low]
-
-
 ### LED
 
 * Take another pic of the curtain -> revert strips + white background
@@ -65,23 +57,18 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 ### DMX
 
 * DMX is like MIDI for stage equip
-* Add more info to DMX
 
+* Sender slided
 * Create a MIDI device demo
-* Add pics of the devices I'm using
-* calculate the avg value from the LED array
 
-* Maybe use a MIDI device
+* Fog maschine in the middle
+
 
 
 
 ---
 
-## Part 3: 🤓 + 🤓
+# TODO: Code
 
-* Add the URL to livejs.network
-* Explain what each of us is doing
-* -> Sam is playing music using his game boys
-* -> Tim will control modV using MIDI devices 
-
-
+* Send Object with LED / DMX
+* Update "Grab Canvas" to send also data for the fog maschine
