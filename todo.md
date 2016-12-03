@@ -27,7 +27,13 @@
 
 * Add resources
 
-A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzalez Vivo and Jen Lowe. Check it out at: http://thebookofshaders.com/
+* A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzalez Vivo and Jen Lowe. Check it out at: http://thebookofshaders.com/
+* NERD DISCO
+* NerdV
+* Meyda
+* node-dmx
+* What is DMX
+* Slides
 
 
 
@@ -56,13 +62,15 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 
 ### DMX
 
-* DMX is like MIDI for stage equip
+* DMX is like MIDI, but for stage equip
 
-* Sender slided
-* Create a MIDI device demo
+* Sender slide
 
 * Fog maschine in the middle
-
+* Explain placement of devices on the stage
+* Explain address mapping using the PAR light 
+* Show address mapping in the array better
+ 
 
 
 
@@ -70,5 +78,4 @@ A great resource for learning GLSL is the Book of Shaders by by Patricio Gonzale
 
 # TODO: Code
 
-* Send Object with LED / DMX
-* Update "Grab Canvas" to send also data for the fog maschine
+* Use WebGL again in GrabCanvas
