@@ -5,19 +5,13 @@
 
 our story is split into 3 chapters and by the end you will know how to use the web to do an audio / visual live performance.
 
-
-
-
 ---
 
 # Part 1: Sam
 
-
 ## Game Boy music
 
 Let's talk about a passion of mine.
-
-![nanoloop 2](https://scontent-frt3-1.cdninstagram.com/t51.2885-15/s640x640/e15/14063636_1205327192868611_650892397_n.jpg?ig_cache_key=MTMyODI5NTMzMTU3ODcyODc5OQ%3D%3D.2)
 
 I use the Nintendo Game Boy to create music, which is commonly referred to as Chiptune.  
 
@@ -32,8 +26,6 @@ I've been doing this for about 8 years now, and just a couple of years ago I wan
 (*next slide*)
 
 As there is no direct MIDI output from the software I use on Game Boy, I researched how to analyse audio using JavaScript in the browser.
-
-
 
 ## WebAudio analysing
 
@@ -76,10 +68,9 @@ I made a modular framework for mixing different visual outputs, called...
 
 modV stands for Modular Visualisation. It is an Open Source audio visualisation environment written in JavaScript and runs in Google Chrome.
 
-(**change**)  
+(**change**) 
+ 
 The program's development started 2 years ago and it is the result of my adventure into audio visualisation using JavaScript.
-=======
-(*change*)
 
 Before I show it to you, I'm going to go over the technologies used within modV to create the visualisations.
 
@@ -124,12 +115,11 @@ That's where the modular part of modV comes in.
 
 (*switch to modV*)
 
-modV has a collection of four different types of Modules at the moment:
+modV has a collection of three different types of Modules at the moment:
 
 * Module2D - Canvas2D
 * Module3D - THREE.js (WebGL)
 * ModuleShader - GLSL (WebGL)
-* ModuleScript - Canvas2D + GLSL (WebGL)
 
 (*Show off Module Types in Demo 5 - 10 seconds 🎉*)
 
@@ -137,9 +127,7 @@ When combined, these Modules can create some stunning visuals.
 
 (*DEMO TIME*)
 
-
-
-
+(*switch to slides*)
 
 Thank you.
 
@@ -153,30 +141,22 @@ Now it's Part 2: TIM!
 
 * My two biggest passions are music visualizations and experimenting with web technologies
 * To combine both these passions into one project I started NERD DISCO more than two years ago
-* Since then I gave talks around the world to inspire everyone to be creative with the web
-* Recently I started to collaborate with other web artists  
-* One of them is Sam and because he already explained how to create visualisations, I will focus on the hardware side of NERD DISCO.
-
-
+* It's using Web Audio and Canvas to create visualizations, but as Sam already talked about that in depth, I will focus on the hardware side of NERD DISCO. 
 
 ## 1. MIDI
 
 * Let's start with MIDI, which stands for **Musical Instrument Digital Interface**
 * It's a standard that defines a data protocol and adapters
 * And it's main purpose is to connect electronic instruments, computers and other MIDI devices with each other
-* In the browser we have the **Web MIDI API**, which makes it possible to use any MIDI device over USB, like this **KORG nanoPAD2**
+* In the browser we have the **Web MIDI API**, which makes it possible to use any MIDI device over USB, like this **Novation Launch Control**
 * We only need to **requestMIDIAccess**
 * And listen to **MIDIMessageEvent**'s
-* For example if I push a button on the **nanoPAD** Which are fired every time we use a button or an other input on the MIDI device
-* Which means I can use any MIDI device to control software in the browser
-
-
+* For example if I push a button on the **Launch Control** you will get a **MIDIMessageEvent**
+* This means we can use any MIDI device to control software in the browser
 
 ## 2. LED
 
 Another main part of NERD DISCO are LEDs and because I love to create prototypes, I build this LED curtain:
-
-![](https://s3.amazonaws.com/media-p.slid.es/uploads/11681/images/2981468/led_curtain_1920.JPG)
 
 It consists of
 
@@ -184,7 +164,9 @@ It consists of
 * To manage the LED strips I'm using a microcontroller called FadeCandy and it was only build to control NeoPixels
 * The FadeCandy is connected over USB to a Raspberry PI and the Raspberry PI is running a Node.js-app, which can send data to the FadeCandy over USB and creates a WebSocket-Server, so I can control the Raspberry PI over WIFI from my computer
 
-* The FadeCandy expects an array of 3-byte triples for each LED, representing an RGB color
+### FadeCandy to LED
+
+* The FadeCandy expects an array of 3-byte triples for each LED, which represents an RGB color
 * For example to light up the first LED with red and the second LED to green, we have to send this array
 * And this goes on and on for every LED
 
@@ -192,8 +174,6 @@ array(
   /* 1 LED */ 255, 0, 0,
   /* 2 LED */ 0, 255, 0
 )
-
-
 
 ## 3. DMX512
 
@@ -214,7 +194,7 @@ array(
 * The DMX interface expects an array of 512 bytes
 * Each DMX device can have multiple channels and a configured address
 
-* The PAR lights have 3 channels each, which means the first one is at address 1, the second one at address 4, the fog machine at 7.
+* The PAR lights have 3 channels each, which means the first one is at address 1, the second one at address 4, the fog machine at 16.
 
 * If I want to turn the first PAR light to red, I send the following array
 
@@ -234,8 +214,6 @@ array(/* PAR light A */ 255, 0, 0,
 
 
 
-
-
 ---
 
 # Part 3: Sam + Tim
@@ -246,17 +224,13 @@ array(/* PAR light A */ 255, 0, 0,
 
 **SAM:** We added MIDI controller assignments in modV and grabbed the Canvas data to send it over WebSockets to Tim's project nerdV, which controls the NERDDISCO LED Curtain and DMX lighting! 
 
-
 ## LiveJS
 
 **TIM**: You will see and hear the result of our hack weekend in the following minutes. Sam will play one of his own songs live and I will control modV with my MIDI devices.
 
-
 (*Load preset with Grab Canvas*)
 (*Sam plays one of his songs*)
 (*Tim VJs*)
-
-
 
 ---
 
