@@ -68,8 +68,8 @@ I made a modular framework for mixing different visual outputs, called...
 
 modV stands for Modular Visualisation. It is an Open Source audio visualisation environment written in JavaScript and runs in Google Chrome.
 
-(**change**) 
- 
+(**change**)
+
 The program's development started 2 years ago and it is the result of my adventure into audio visualisation using JavaScript.
 
 Before I show it to you, I'm going to go over the technologies used within modV to create the visualisations.
@@ -141,7 +141,7 @@ Now it's Part 2: TIM!
 
 * My two biggest passions are music visualizations and experimenting with web technologies
 * To combine both these passions into one project I started NERD DISCO more than two years ago
-* It's using Web Audio and Canvas to create visualizations, but as Sam already talked about that in depth, I will focus on the hardware side of NERD DISCO. 
+* It's using Web Audio and Canvas to create visualizations, but as Sam already talked about that in depth, I will focus on the hardware side of NERD DISCO.
 
 ## 1. MIDI
 
@@ -196,33 +196,29 @@ array(
 
 * The PAR lights have 3 channels each, which means the first one is at address 1, the second one at address 4, the fog machine at 16.
 
-* If I want to turn the first PAR light to red, I send the following array
+* If I want to turn the first PAR light to red, I send the following Object
 
-array(/* PAR light A */ 255, 0, 0,
-      /* PAR light B */ 0, 0, 0,
-      /* fog machine */ 0)
+(*first PAR light*)
 
-* To change the color of the second light to green and turn on the fog machine, I send the following array:
+* To change the color of the second light to green, we send the following data on address 4:
 
-array(/* PAR light A */ 255, 0, 0,
-      /* PAR light B */ 0, 255, 0,
-      /* fog machine */ 255)
+(*second PAR light*)
 
-* To create this array you have to know the physical order of the devices in the network
+* To turn on the fog machine, we wend the following data on address 16:
+
+(*fog machine*)
 
 **TIM:** And now it's part 3: Sam & Tim
-
-
 
 ---
 
 # Part 3: Sam + Tim
 
-**SAM:** A couple of months ago, Tim and I met through Live:JS: A collective of audio and visual artists. I asked Tim: Oh, wouldn't it be nice to combine our projects? 
+**SAM:** A couple of months ago, Tim and I met through Live:JS: A collective of audio and visual artists. I asked Tim: Oh, wouldn't it be nice to combine our projects?
 
 **TIM:** I said: YES, that is a good idea. Let's have a Hack Weekend. So Sam visited me in Frankfurt
 
-**SAM:** We added MIDI controller assignments in modV and grabbed the Canvas data to send it over WebSockets to Tim's project nerdV, which controls the NERDDISCO LED Curtain and DMX lighting! 
+**SAM:** We added MIDI controller assignments in modV and grabbed the Canvas data to send it over WebSockets to Tim's project nerdV, which controls the NERDDISCO LED Curtain and DMX lighting!
 
 ## LiveJS
 
