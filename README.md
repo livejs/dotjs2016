@@ -1,4 +1,4 @@
-# dotjs2016
+# dotJS 2016
 
 This is the talk "[{Live:JS}](https://twitter.com/livejs_network)" for [dotJS 2016](https://twitter.com/dotJS) by [Sam Wray](https://twitter.com/_2xaa) & [Tim Pietrusky](https://twitter.com/TimPietrusky).
 
