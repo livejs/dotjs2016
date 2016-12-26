@@ -1,10 +1,20 @@
 # dotJS 2016
 
-This is the talk "[{Live:JS}](https://twitter.com/livejs_network)" for [dotJS 2016](https://twitter.com/dotJS) by [Sam Wray](https://twitter.com/_2xaa) & [Tim Pietrusky](https://twitter.com/TimPietrusky).
+This is the talk / show "[{Live:JS}](https://twitter.com/livejs_network)" for [dotJS 2016](https://twitter.com/dotJS) by [Sam Wray](https://twitter.com/_2xaa) & [Tim Pietrusky](https://twitter.com/TimPietrusky).
 
 ![dotJS talk](images/dotjs2016_performance_1.jpg)
 ![dotJS talk](images/dotjs2016_performance_2.jpg)
 
+## Talk
+
+The video of the talk is not released yet. 
+
+
+## After-party
+
+Sam filmed our performance at the official dotJS after-party:
+
+[![dotJS 2016: After-party](http://img.youtube.com/vi/oR9vIXlu714/0.jpg)](http://www.youtube.com/watch?v=oR9vIXlu714)
 
 
 
