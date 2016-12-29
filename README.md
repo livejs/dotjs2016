@@ -2,8 +2,6 @@
 
 This is the talk / show "[{Live:JS}](https://twitter.com/livejs_network)" for [dotJS 2016](https://twitter.com/dotJS) by [Sam Wray](https://twitter.com/_2xaa) & [Tim Pietrusky](https://twitter.com/TimPietrusky).
 
-![dotJS talk](images/dotjs2016_performance_1.jpg)
-
 ## Talk
 
 You can [find the video of the talk](http://www.thedotpost.com/2016/12/sam-wray-tim-pietrusky-livejs):
