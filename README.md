@@ -6,8 +6,9 @@ This is the talk / show "[{Live:JS}](https://twitter.com/livejs_network)" for [d
 
 ## Talk
 
-The video of the talk is not released yet.
+You can [find the video of the talk](http://www.thedotpost.com/2016/12/sam-wray-tim-pietrusky-livejs):
 
+[![dotJS talk](images/dotjs2016_performance_1.jpg)](http://www.thedotpost.com/2016/12/sam-wray-tim-pietrusky-livejs)
 
 ## After-party
 
