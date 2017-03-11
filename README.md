@@ -29,6 +29,12 @@ You can find the full script of the talk in this repository: [script.md](script.
 
 (It's not 100% what we said during the talk, because while giving the talk we tend to add more / remove information to create a better flow)
 
+## Photos
+
+You can find photos of our talk / performance on the official flickr of dotJS: https://www.flickr.com/photos/97226415@N08/sets/72157675822234502
+
+We downloaded the ones that cover us here: [images/dotjs_flickr](images/dotjs_flickr)
+
 
 ## Resources
 
